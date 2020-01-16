@@ -1,0 +1,156 @@
+{
+  "days": [
+    {
+      "id": 1,
+      "date": "2020-01-01",
+      "activities": [
+        {
+          "id": 1,
+          "name": "Angielski"
+        },
+        {
+          "id": 2,
+          "name": "Yoga"
+        }		
+      ]
+    },
+    {
+      "id": 2,
+      "date": "2020-01-02",
+      "activities": [
+        {
+          "id": 3,
+          "name": "Yoga"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "date": "2020-01-03",
+      "activities": [
+        {
+          "id": 4,
+          "name": "Angielski"
+        },
+        {
+          "id": 5,
+          "name": "Hiszpański"
+        }		
+      ]
+    },
+    {
+      "id": 4,
+      "date": "2020-01-04",
+      "activities": []
+    },
+    {
+      "id": 5,
+      "date": "2020-01-05",
+      "activities": [
+        {
+          "id": 6,
+          "name": "Angielski"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "date": "2020-01-06",
+      "activities": []
+    }	
+  ],
+  "activities": [
+    {
+      "id": 1,
+      "name": "Angielski",
+      "fields": [
+        {
+          "field_name": "Ile czasu?",
+          "field_value": "2 godziny"
+        },
+        {
+          "field_name": "Jak wrażenia?",
+          "field_value": "Super!"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Yoga",
+      "fields": [
+        {
+          "field_name": "Ile czasu na to poświęciłeś?",
+          "field_value": "2 godziny"
+        },
+		{
+          "field_name": "Gdzie to robiłeś?",
+          "field_value": "w domu"
+        },
+        {
+          "field_name": "Jak oceniasz to w skali 1-5?",
+          "field_value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Yoga",
+      "fields": [
+        {
+          "field_name": "Ile czasu na to poświęciłeś?",
+          "field_value": "1 godzinę"
+        },
+        {
+          "field_name": "Jak oceniasz to w skali 1-5?",
+          "field_value": "3"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Angielski",
+      "fields": [
+        {
+          "field_name": "Czy czujesz, że Twój angielski się poprawił?",
+          "field_value": "nie"
+        },
+        {
+          "field_name": "Gdzie się uczyłeś?",
+          "field_value": "W szkole"
+        },
+        {
+          "field_name": "Czy zamierzasz się uczyć w przyszłym tygodniu?",
+          "field_value": "tak"
+        },
+        {
+          "field_name": "Ile czasu na to poświęciłeś?",
+          "field_value": "45 minut"
+        }		
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Hiszpański",
+      "fields": [
+        {
+          "field_name": "Czy czujesz, że Twój hiszpański się poprawił?",
+          "field_value": "tak"
+        },
+        {
+          "field_name": "Czy czujesz, że Twój hiszpański jest lepszy od angielskiego?",
+          "field_value": "nie"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Angielski",
+      "fields": [
+        {
+          "field_name": "Ile czasu przeznaczyłeś na swój angielski?",
+          "field_value": "2 godziny"
+        }
+      ]
+    }	
+  ]
+}
