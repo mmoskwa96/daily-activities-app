@@ -1,12 +1,14 @@
 # daily-activities-app
-Simple app for displaying end editing daily activities from REST API.
+Simple app for displaying and editing daily activities from REST API.
 
-Starting database:
-`json-server --watch db.json --host <address> --port 3000`
+Starting database: `json-server --watch db.json --host <address> --port 3000`
+
 address - IP address of the machine, on which json server is started (easy to check with *ifconfig* or *ipconfig*).
 
 Example queries (here address is 192.168.2.110):
+
 `http://192.168.2.110:3000/days`
+
 `http://192.168.2.110:3000/activities/1`
 
 ```json
