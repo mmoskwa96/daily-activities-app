@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DailyActivitiesApp</string>
+    <string name="screen__main__toast_success__text">Uaktualniono dane</string>
+    <string name="screen__main__toast_failure__text">Błąd pobierania danych"</string>
 </resources>
