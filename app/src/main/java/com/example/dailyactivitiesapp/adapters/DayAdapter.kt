@@ -31,9 +31,10 @@ class DayAdapter(val dailyActivities: List<DailyActivities>, val context: Contex
             val chip = Chip(holder.chipGroup.context)
             chip.text = it.name
             chip.isClickable = true
+            val id = it.id
             chip.setOnClickListener {
                 val intent = Intent(context, DisplayMessageActivity::class.java).apply {
-                    putExtra("activity_id", it.id)
+                    putExtra("activity_id", id)
                 }
                 context.startActivity(intent)
             }

@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
     private fun loadData() {
 
         val retrofit = Retrofit.Builder()
-            .baseUrl("http://192.168.8.110:3000")
+            .baseUrl("http://192.168.43.168:3000")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
